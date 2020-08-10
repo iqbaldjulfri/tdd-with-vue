@@ -3,7 +3,6 @@ import { shallowMount } from '@vue/test-utils';
 import LoginPage from './LoginPage';
 
 jest.mock('@/lib/api');
-api.login.mockResolvedValue();
 
 describe('LoginPage', () => {
   describe('when loaded', () => {
